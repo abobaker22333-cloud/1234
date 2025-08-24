@@ -1,0 +1,37 @@
+body {
+  font-family: tahoma, sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: gold;
+}
+
+form {
+  margin: 20px 0;
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
